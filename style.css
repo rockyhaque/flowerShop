@@ -23,6 +23,17 @@
     cursor: pointer;
 }
 
+.btn:hover{
+    
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+
+    
+  box-shadow: 0px 15px 20px rgba(207, 86, 187, 0.4);
+  color: black
+  /* transform: translateY(-1px); */
+
+}
+
 
 
 .header-container{
@@ -205,7 +216,7 @@
     padding: 20px;
 }
 
-/*---------------Celebration Section Start-------------*/
+/*This is Celebration Section*/
 
 .celebration-container{
     background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,191,233,1) 100%);
@@ -223,11 +234,9 @@
     width: 30px;
     height: 35px;
     margin-top: 20px;
-
-    
 }
 
-textarea{
+.celebration-input{
     width: 65%;
     height: 150px;
     padding: 12px 20px;
@@ -238,26 +247,22 @@ textarea{
     resize: none;
 }
 
+.celebration-btn{
+    margin-top: 20px;
+}
+
 .offering-celebration{
     margin-top: 20px;
 }
 
 .birthday-celebration{
-    /* margin-top: 20px; */
     margin-bottom: 30px;
-
 }
 
 .surprise{
     margin-top: 20px;
 
 }
-
-/*---------------Celebration Section End-------------*/
-
-
-
-
 
 
 /* This Social Section  */
