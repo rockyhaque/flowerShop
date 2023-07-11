@@ -13,12 +13,13 @@ body{
 /* Shared Styles  */
 
 .btn{
-    padding: 20px 43px;
+    padding: 15px 35px;
     border-radius: 5px;
     background: #E55473;
     border: none;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
 }
 
 
@@ -195,6 +196,59 @@ body{
     padding: 20px;
 }
 
+/*---------------Celebration Section Start-------------*/
+
+.celebration-container{
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,191,233,1) 100%);
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.celebration-img{
+    width: 30px;
+    height: 35px;
+    margin-top: 20px;
+
+    
+}
+
+textarea{
+    width: 65%;
+    height: 150px;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+.offering-celebration{
+    margin-top: 20px;
+}
+
+.birthday-celebration{
+    /* margin-top: 20px; */
+    margin-bottom: 30px;
+
+}
+
+.surprise{
+    margin-top: 20px;
+
+}
+
+/*---------------Celebration Section End-------------*/
+
+
+
+
+
 
 /* This Social Section  */
 
@@ -324,3 +378,4 @@ input[type=text]{
 .copyright{
     color: rgba(255, 255, 255, 0.40);
 }
+
