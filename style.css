@@ -3,10 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
-
-
 
 
 /* Shared Styles  */
@@ -26,12 +23,8 @@
 .btn:hover{
     
     background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-
-    
-  box-shadow: 0px 15px 20px rgba(207, 86, 187, 0.4);
-  color: black
-  /* transform: translateY(-1px); */
-
+    box-shadow: 0px 15px 20px rgba(207, 86, 187, 0.4);
+    color: black;
 }
 
 
@@ -47,22 +40,19 @@
 
 .text-header{
     margin: 80px 80px;
-    padding: 50px;
-    
+    padding: 50px;  
 }
 
 .header-title{
     color: #272727;
     font-size: 20px;
     padding-bottom: 20px;
-
 }
 
 .header-description{
     padding: 0px 0px 21px 0px;
     width: 100%;
     font-size: 12px;
-
 }
 
 .img-header{
@@ -72,8 +62,7 @@
 .right-header-img{
     width: 350px;
     height: 400px;
-    margin-top: 100px;
-    
+    margin-top: 100px;  
 }
 
 
@@ -89,7 +78,6 @@
     text-align: center;
     line-height: 20px;
     padding: 25px 15px;
-
 }
 
 
@@ -103,10 +91,7 @@
     width: 80%;
     margin: auto;
     justify-content: space-around;
-    padding: 25px 15px;
-    /* border: 2px solid black; */
-
-    
+    padding: 25px 15px;   
 }
 
 .box-img-size{
@@ -122,8 +107,7 @@
     background: rgba(167, 33, 98, 0.15);
 
     display: flex;
-    justify-content: center;
-           
+    justify-content: center;         
 }
 
 
@@ -162,13 +146,11 @@
 
 
 .service-img{
-    margin-left: 20px;
-    
+    margin-left: 20px; 
 }
 
 .service-text{
-    font-size: 10px;
-    
+    font-size: 10px; 
 }
 
 .call-text{
@@ -186,8 +168,7 @@
     display: flex;
     width: 100%;
     height: 300px;
-    margin-top: 70px;
-    
+    margin-top: 70px; 
 }
 
 
@@ -195,7 +176,6 @@
     width: 40%;
     margin: auto;
     text-align: center;
-    
 }
 
 .discount-title{
@@ -261,7 +241,6 @@
 
 .surprise{
     margin-top: 20px;
-
 }
 
 
@@ -330,8 +309,6 @@
     margin: 30px auto;
     align-items: center;
     padding: 85px 10px 0px 10px;
-    /* text-align: center; */
-    
 }
 
 .form-description{
@@ -367,7 +344,6 @@ input[type=text]{
     height: 400px;
     background: #111010;
     margin: auto;
-
 }
 
 .footer-info{
@@ -395,4 +371,3 @@ input[type=text]{
 .copyright{
     color: rgba(255, 255, 255, 0.40);
 }
-
