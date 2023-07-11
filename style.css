@@ -195,3 +195,47 @@ body{
     padding: 20px;
 }
 
+
+/* This Social Section  */
+
+.social-text{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.social-text-title{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.social-text-description{
+    padding-bottom: 30px;
+}
+
+.social-img-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+}
+
+.all-social-img{
+    display: flex;
+    align-items: center;
+}
+
+.rectangle-size{
+    width: 170px;
+    height: 190px;
+    justify-content: space-around;
+    margin-left: 20px;
+
+}
+
+
+/* This is form section  */
+
+.form-container-img{
+    background-image: url('./Flower-Asset/Rectangle\ 9.png');
+}
