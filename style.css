@@ -157,7 +157,7 @@ body{
 
 /* This is Discount Section  */
 
-.discount-span{
+.primary-span{
     color: #E55473;
 }
 
@@ -238,4 +238,89 @@ body{
 
 .form-container-img{
     background-image: url('./Flower-Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 370px;
+    margin: 90px 0px;
+    
+
+}
+
+
+.user-input{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+}
+
+.form-info{
+    width: 50%;
+    margin: 30px auto;
+    align-items: center;
+    padding: 85px 10px 0px 10px;
+    /* text-align: center; */
+    
+}
+
+.form-description{
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.form-description-text{
+    padding-left: 75px;
+
+}
+
+.form-title-text{
+    padding-left: 50px;
+}
+
+.input{
+    padding: 20px 50px;
+}
+
+input[type=text]{
+    border: none;
+    padding: 20px;
+}
+
+/* This is Footer Section  */
+
+.footer-section{
+    width: 100%;
+    height: 400px;
+    background: #111010;
+    margin: auto;
+
+}
+
+.footer-info{
+    width: 80%;
+    margin: auto;
+    padding: 100px ;
+    text-align: center;
+}
+
+.footer-title{
+    font-size: 20px;
+    font-weight: 800;
+    padding: 20px 0px;
+
+}
+
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    padding: 28px 0px;
+}
+
+.secondary-span{
+    color: rgba(255, 255, 255, 1);
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
 }
